@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Alejandro's Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+    
+    <h1>Trivia Game</h1>
+
+    <form id = "quiz" name = "quiz">
+        
+        <p>Bubble wrap was originally intended to be used as</p>
+        <input type = "radio" id = "mc" name = "question1" value = "As entertainment">As entertainment<br>
+        <input type = "radio" id = "mc" name = "question1" value = "3D wallpaper">3D wallpaper<br>
+        <input type = "radio" id = "mc" name = "question1" value = "Wrap packages">Wrap packages<br>
+        
+        <p>The last movie ever rented at Blockbuster was</p>
+        <input type = "radio" id = "mc" name = "question2" value = "Ted">Ted<br>
+        <input type = "radio" id = "mc" name = "question2" value = "Sausage Party">Sausage Patry<br>
+        <input type = "radio" id = "mc" name = "question2" value = "This is the end">This is the end<br>
+
+        <p>The average person spends _______ of their lifetime waiting on a red light to turn green.</p>
+        <input type = "radio" id = "mc" name = "question3" value = "6 months">6 months<br>
+        <input type = "radio" id = "mc" name = "question3" value = "1 years">1 years<br>
+        <input type = "radio" id = "mc" name = "question3" value = "2 years">2 years<br>
+
+        <p>Whats the largest fish in the ocean</p>
+        <input type = "radio" id = "mc" name = "question4" value = "Giant Oarfish">Giant Oarfish<br>
+        <input type = "radio" id = "mc" name = "question4" value = "Whale Shark">Whale Shark<br>
+        <input type = "radio" id = "mc" name = "question4" value = "Beluga">Beluga<br>
+        
+        
+        <input id = "button" type = "button" value = "Im done" onclick = "check();">
+
+    </form>
+    
+    
+   </form> 
+    <div id = "after_submit">
+    <p id = "message"></p>
+    <p id = "number_correct"></p>
+    <img id = "gif">
+    </div>
+</body>
+</html>
